@@ -17,4 +17,11 @@ php artisan migrate
 ```` bash
 php artisan serv
 ````
-
+Список роутов
+````
+  GET             api/v1/tasks 
+  POST            api/v1/tasks      {title, description, status}   
+  GET             api/v1/tasks/{task} 
+  PUT|PATCH       api/v1/tasks/{task}       {title, description, status}
+  DELETE          api/v1/tasks/{task}  
+````
